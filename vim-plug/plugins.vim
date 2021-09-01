@@ -37,9 +37,6 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     " Fast Comments
     Plug 'tpope/vim-commentary'
 
-	" Ranger
-    Plug 'kevinhwang91/rnvimr', {'do': 'make sync'}
-
     " FZF
     Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
     Plug 'junegunn/fzf.vim'
